@@ -1,0 +1,6 @@
+#Don't push node_modules - use "NPM install" to rebuild
+node_modules/
+#Don't push session-state containers
+sessions/
+#Don't push the config containing DB username/password
+databasehandler_config.js
